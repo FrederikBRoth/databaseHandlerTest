@@ -11,11 +11,10 @@ namespace pleeweasse
             Console.WriteLine("Hello World!");
 
             using(var db = new semester3Context())
-            { 
+            {
                 //Read all users
                 var user = db.User
                     .OrderBy(b => b.UserId.First()).ToList();
-                Console.WriteLine(user.ToString());
 
                 foreach (User test in user)
                 {
