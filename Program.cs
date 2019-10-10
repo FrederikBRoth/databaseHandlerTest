@@ -22,8 +22,8 @@ namespace pleeweasse
 
                 }
                 
-                //Add new user
-                db.Add(new User
+                 //Add new user
+                db.Add(new User 
                 {
                     UserId = "fuck dig",
                     UserLogin = "hjæawdawd",
@@ -31,6 +31,7 @@ namespace pleeweasse
                     UserEmail = "hjælp mig"
                 });
                 db.SaveChanges();
+               
 
             }
         }
