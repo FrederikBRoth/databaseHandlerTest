@@ -31,6 +31,8 @@ namespace pleeweasse
                     UserEmail = "hjælp mig"
                 });
                 db.SaveChanges();
+
+                Console.WriteLine("test");
                
 
             }
